@@ -1,0 +1,33 @@
+📁 Getting Started
+git init                   # Create a new Git repository
+git clone <url>           # Clone an existing repository
+✅ File Operations
+git status                # Show file status
+git add <file>            # Stage a file
+git add .                 # Stage all changes
+git commit -m "message"   # Commit with a message
+🌿 Branching
+git branch                # List all branches
+git branch <name>         # Create a new branch
+git checkout <branch>     # Switch to a branch
+git checkout -b <name>    # Create and switch to a new branch
+git merge <branch>        # Merge a branch into current
+☁️ Remote Repositories
+git remote -v                              # Show remote URLs
+git remote add origin <url>                # Add remote
+git remote remove origin                   # Remove remote
+git remote set-url origin <new-url>        # Change remote URL
+📤 Pushing and Pulling
+git push                                   # Push changes
+git push -u origin main                    # Push and set upstream
+git pull                                   # Fetch and merge from remote
+git fetch                                  # Fetch changes (no merge)
+🔍 History and Diffs
+git log                                    # Show commit history
+git diff                                   # Show unstaged changes
+git diff --staged                          # Show staged changes
+⏪ Undoing Changes
+git restore <file>                         # Discard changes in file
+git reset <file>                           # Unstage file
+git reset --hard                           # Discard all changes
+git revert <commit>                        # Revert a specific commit
